@@ -4,7 +4,7 @@
     # @autor: Eric Coutinho <ericoutinho@gmail.com>
     # Classe simples para tratar de url amigável no PHP
 
-    //namespace Main;
+    namespace Main;
 
     class FriendlyUrl{
     

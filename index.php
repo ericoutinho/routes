@@ -4,8 +4,10 @@
 
     $url = "/admin/users/add/35";
 
-    $friendly = new FriendlyUrl();
+    $friendly = new Main\FriendlyUrl();
     $friendly->add("/{indice}/{modulo}/{action}");
     $friendly->add("/{indice}/{modulo}/{action}/{id}");
 
-    var_dump($friendly->get($url));
+    echo("<pre>");
+    print_r($friendly->get($url));
+    echo("</pre>");
