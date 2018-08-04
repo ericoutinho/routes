@@ -13,3 +13,18 @@ $myRoute->add($param_a);
 
 $p = $myRoute->get($url);
 ````
+
+Imprimindo o vetor de retorno, o resultado será parecido como:
+
+````php
+print_r($p);
+````
+````
+Array
+    (
+        [section] => admin
+        [module] => users
+        [action] => add
+        [id] => 35
+    )
+````
