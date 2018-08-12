@@ -1,6 +1,6 @@
 <?php
 
-    require_once("class/FriendlyUrl.class.php");
+    require_once("class/routes.php");
 
     $url = "/admin/users/add/35";
 
